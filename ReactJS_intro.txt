@@ -1,0 +1,237 @@
+﻿npm uninstall -g create-react-app
+
+npx create-react-app first_rjs_1.4
+
+npx create-react-app sample_proj
+
+npm start
+
+npm cache clear --force
+
+http://localhost:3000
+
+
+
+
+
+
+
+
+
+
+need to work:
+
+	https://reactjs.org/docs/reconciliation.html
+
+	https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
+
+	element and node diff
+	custom eventlistners--> dispatchEvent
+
+===============================
+		JS
+===============================
+
+
+Let,const and var keywords
+
+Spread operator :
+ array and object are mutable in JavaScript, so to avoid mutation
+ use - spread operator
+ 
+ const stringList = ["Mohan","Fasale","Robert"];
+ const name = "Priya";
+ const result = [...stringList, name];
+
+ const stringList = ["Mohan","Fasale","Robert"];
+ const name = "Priya";
+ const result = [...stringList, name];
+
+
+*******************************
+
+
+window.location = `https://${0.1+0.2}`
+
+document.querySelectorAll('img')
+
+navigator.vibrate(200)
+
+Window.scrollTO();
+
+immediately invoked function expresions;
+
+Arrow funtions
+
+=========================
+
+
+console.log  group count error warn table dir(to view all available functions in an object).
+
+html_tag. classList.add()
+=======================
+
+bubbling : target and current target
+		target gives gives the exact element we have clicked.
+		current target is the event that it matches. 
+========================
+
+Events:
+
+addEventListner(DOMContentLoaded,func())
+
+
+=========
+conditional abuse with && and ? : operators
+
+destructuring objects data
+
+github error --> placing , after properties in object data
+
+object referencing
+
+empty objects and arrays always return true in if cond
+
+unpkg.com --> loading libraries with less time , loading lodash library.
+
+deep copy and shallow copy using _.clone in lodash library
+
+Json.stringify (object to string) and Json.parse (Strings to Json object)
+
+Object.fromEntries( map object ) --> results in converting map object into Object.
+
+
+=============================================
+
+Array.from
+fill() 
+
+slice()
+split()
+indexOf()
+includes()
+every()
+
+Object.foreach returns nothing..
+
+
+map,find,filter,reduce
+
+map returns the array
+find returns the matched object and filter returns the matched object in an array.
+
+
+=================================================================================
+
+
+
+Face Detection :
+
+prerequisites :-
+	enable experimantal web platform feaures in chrome://flags to enable faceDetection() method.
+	install a server.
+
+
+======================================================================================
+
+
+form --> autocompletion :off
+
+input --> required
+
+element.dispatchEvent(new CustomEvent())
+
+
+=====================================
+
+
+CSS selectors :
+
+	pointer-events :none (it disables any clicks)
+	opacity : 0 or 1;
+
+
+=============================
+
+element.firstElementChild
+element.previousElementSibling
+
+detructuring useful while swapping
+
+button element --> disabled
+
+css :- display : grid,
+		
+write nested functions to execute callbacks one after other to have event calls to be executed successfully.
+promises comes into play if we need to execute asynchronously by writing one after other.
+
+======================================
+			JAVASCRIPT-30
+======================================
+
+CSS :-
+	display : flex   allows horizontal alignment.
+
+	uses of paddding,box-shadow,position
+
+
+
+	box-sizing : content-box; --> default
+			   : 	border-box  --> to make elements padding size and margin size include to its width and height
+				:	inherit     --> to make child elements inherit the parent behaviour.
+
+	max-width : 100% makes the element to be responsive.
+
+	--------------------------
+
+	display : grid
+	grid-template-columns : 100px 120px 130px
+	grid-gap : 20px
+	grid-area ---> includes grid-column-start,grid-column-end,grid-row-start,grid-row-firstElementChild
+
+
+	display : flex
+	flex-direction : row column row-reverse column-reverse
+	flex-wrap : nowrap wrap
+	flex-basis : px and flex-grow,flex-shrink
+
+
+========================================
+
+
+1. normal functions in js doesn't hoist but we can achieve with arrow functions
+
+	Variables which are not assigned with a function can be hoisted.
+
+2. nomal functions execute on window scope whereas arrow functions execute on scope where they were declared/defined.
+
+
+=======================================
+
+var arr = [5, 6, 13, 0, 1, 18, 23];
+
+var sum = arr.reduce((a, b) => a + b);
+// 66
+
+var even = arr.filter(v => v % 2 == 0); 
+// [6, 0, 18]
+
+var double = arr.map(v => v * 2);
+// [10, 12, 26, 0, 2, 36, 46]
+
+==========================================
+
+1. State variables set in construtors are private.
+2. In React, it’s conventional to use on[Event] names for props which represent events and 
+   handle[Event] for the methods which handle the events.
+3. var newPlayer = Object.assign({}, player, {score: 2});
+
+
+
+======================================
+https://web.stanford.edu/class/cs253/
+
+
+crptocurrency mininng??
+
+
